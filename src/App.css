@@ -1,0 +1,97 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+	background-color: #e7e6f7;
+	margin: 0px;
+	height: 1000px;
+	border-radius: 5px;
+}
+
+/* Nav Bar Styling */
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: #c6d2ed;
+	margin: 15px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.bar {
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+
+li {
+	margin: 2px;
+}
+
+.link-nav {
+	background: transparent;
+	border: #c6d2ed;
+	font-size: 15px;
+	border-radius: 5px;
+	height: 40px;
+	width: 90px;
+}
+
+.link-nav:hover {
+	transform: scale(1.1);
+	background: #a1b7eb;
+}
+
+.name {
+	width: 50%;
+	margin: 2px;
+	padding: 2px;
+	font-family: 'Oswald', sans-serif;
+}
+
+/* Project Component Styling */
+
+.projectWrapper {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	margin: 10px;
+}
+
+.projectCard {
+	width: 350px;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+	box-shadow: 5px 10px 18px #888888;
+}
+
+.code-links {
+	display: flex;
+	flex-direction: column;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+}
+
+/* About Me Styling */
+
+.aboutCard {
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+}
