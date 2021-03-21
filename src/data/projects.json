@@ -1,0 +1,50 @@
+[
+	{
+		"id": "1",
+		"title": "Burger Bar",
+		"code": "https://github.com/abissier/Burger-Bar",
+		"deployedCode": "https://burger-bar-orm.herokuapp.com/",
+		"description": "A restaurant app that allows users to add names of burgers to the menu and devour them.",
+		"tools": "Built with MySQL, Node, Express, Handlebars, and ORM."
+	},
+	{
+		"id": "2",
+		"title": "Employee-Directory",
+		"code": "https://github.com/abissier/Employee-Directory",
+		"deployedCode": "https://employee-directory-app3.herokuapp.com/",
+		"description": "A directory that allows you to sort employees by name or location.",
+		"tools": "Built with React, API, and Bootstrap."
+	},
+	{
+		"id": "3",
+		"title": "Recipe Hub",
+		"code": "https://github.com/carlastjuste/Project2_Repo1",
+		"deployedCode": "https://the-recipe-hub.herokuapp.com/",
+		"description": "A recipe tool that allows users to save and search for recipes.",
+		"tools": "Collaborative project built with Express, MySQL, Sequelize, web API, and Handlebars."
+	},
+	{
+		"id": "4",
+		"title": "Weather Dashboard",
+		"code": "https://github.com/abissier/Weather-Dashboard",
+		"deployedCode": "https://abissier.github.io/Weather-Dashboard/",
+		"description": "A weather dashboard that allows users to view a five day forecast for each selected city.",
+		"tools": "Built with Javascript, HTML, CSS, and Open Weather API."
+	},
+	{
+		"id": "5",
+		"title": "Fitness Tracker",
+		"code": "https://github.com/abissier/fitness-tracker",
+		"deployedCode": "https://fitness-app-tracker1.herokuapp.com/",
+		"description": "A fitness app allows users to create and track daily workouts.",
+		"tools": "Built with MongoDB, Mongoose, Express, and Javascript."
+	},
+	{
+		"id": "6",
+		"title": "README Generator",
+		"code": "https://github.com/abissier/Generator-README",
+		"deployedCode": "https://github.com/abissier/Generator-README",
+		"description": "A CLI application that prompts users with a series of questions to generate a README.md file for your project.",
+		"tools": "Built with Node.js and Inquirer npm. *Please note: there is no deployed link for this project."
+	}
+]
