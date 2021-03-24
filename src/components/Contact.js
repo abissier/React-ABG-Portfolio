@@ -34,7 +34,7 @@ function Contact() {
 					</div>
 
 					<div className="contact-card">
-						<a href="./images/ABG Tech Resume.pdf" download="ABGResume">
+						<a href="./img/ABG Tech Resume .pdf" download="ABGResume">
 							<img
 								src="https://img.icons8.com/material/96/000000/open-resume--v1.png"
 								alt="resume icon"
