@@ -6,7 +6,7 @@ function Navbar() {
 		<div className="navbar">
 			<div className="name">
 				<h1>Audrey Bissiere-Grote</h1>
-				<h4>Fullstack Web Developer</h4>
+				<h2>Fullstack Web Developer</h2>
 			</div>
 			<div className="bar">
 				<ul>

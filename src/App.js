@@ -6,6 +6,7 @@ import Project from './components/Project';
 import Contact from './components/Contact';
 import projects from './data/projects.json';
 import './App.css';
+import React from 'react';
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 						<About />
 					</Route>
 					<Route path="/projects">
+						<h2 className="project-helper">Mouse over each project for more info</h2>
 						<div className="projectWrapper">
 							{projects.map((project) => (
 								<Project
@@ -26,6 +28,7 @@ function App() {
 									deployedCode={project.deployedCode}
 									description={project.description}
 									tools={project.tools}
+									imageSrc={project.imageSrc}
 								/>
 							))}
 						</div>
