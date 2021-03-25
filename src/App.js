@@ -1,12 +1,13 @@
+import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Wrapper from './components/Wrapper';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Project from './components/Project';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import projects from './data/projects.json';
 import './App.css';
-import React from 'react';
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 					<Navbar />
 					<Route exact path="/">
 						<About />
+						<Footer />
 					</Route>
 					<Route path="/projects">
 						<h2 className="project-helper">Mouse over each project for more info</h2>
@@ -32,6 +34,7 @@ function App() {
 								/>
 							))}
 						</div>
+						<Footer />
 					</Route>
 					<Route path="/contact">
 						<Contact />

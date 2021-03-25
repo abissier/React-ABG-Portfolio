@@ -198,3 +198,16 @@ h1 {
 	border-radius: 5px;
 	box-shadow: 5px 5px 8px #888888;
 }
+
+/* Footer */
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #c6d2ed;
+	border-radius: 5px;
+	box-shadow: 1px 3px 5px #888888;
+	margin: 20px;
+	height: 40px;
+	text-align: center;
+}
