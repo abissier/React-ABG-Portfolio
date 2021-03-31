@@ -38,6 +38,7 @@ function App() {
 					</Route>
 					<Route path="/contact">
 						<Contact />
+						<Footer />
 					</Route>
 				</Router>
 			</Wrapper>

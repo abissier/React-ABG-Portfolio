@@ -162,15 +162,12 @@ h1 {
 	text-align: left;
 	line-height: 40px;
 	font-size: 20px;
+	z-index: 1;
 }
-
-/* .details-front {
-	 z-index: 5; 
-} */
 
 #arrow-img {
 	position: absolute;
-	/* z-index: 1; */
+	z-index: -1;
 	right: 350px;
 	top: 220px;
 }
@@ -188,12 +185,15 @@ h1 {
 }
 
 .contact-card {
-	margin: 20px;
+	margin: 10px;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
 }
 
+.contact-map {
+	margin: 20px;
+}
 .contact-map img {
 	border-radius: 5px;
 	box-shadow: 5px 5px 8px #888888;
