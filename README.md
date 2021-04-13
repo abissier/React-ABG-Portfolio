@@ -23,7 +23,7 @@ React, JSON, CSS
 <a href="https://ibb.co/gyh2rZX"><img src="https://i.ibb.co/wyjkdhb/screencapture-abissier-github-io-2021-03-24-09-55-38.png" alt="screencapture-abissier-github-io-2021-03-24-09-55-38" border="0"></a>
 
 ### Project Link
- https://abissier.github.io/React-ABG-Portfolio/
+https://abissier.github.io/
 
 ### Contact 
 Questions? 
