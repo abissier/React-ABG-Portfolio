@@ -5,7 +5,7 @@
 * [Description](#description)
 * [Technologies Used](#technologies-used)
 * [Screen Capture](#Screen-Capture)
-* [Project Link](#project-Link)
+* [Deployed App](#deployed-app)
 * [Contact](#contact)
 
 
@@ -22,8 +22,8 @@ React, JSON, CSS
 <br>
 <a href="https://ibb.co/gyh2rZX"><img src="https://i.ibb.co/wyjkdhb/screencapture-abissier-github-io-2021-03-24-09-55-38.png" alt="screencapture-abissier-github-io-2021-03-24-09-55-38" border="0"></a>
 
-### Project Link
-https://abissier.github.io/
+### Deployed App
+https://abissier.github.io/React-ABG-Portfolio/
 
 ### Contact 
 Questions? 
