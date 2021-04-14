@@ -5,7 +5,7 @@
 .wrapper {
 	background-color: #e7e6f7;
 	margin: 0px;
-	height: 1100px;
+	height: auto;
 	border-radius: 5px;
 	z-index: auto;
 }
@@ -210,4 +210,53 @@ h1 {
 	margin: 20px;
 	height: 40px;
 	text-align: center;
+}
+
+/* Media Screens */
+@media only screen and (max-width: 1000px) {
+	.contact-map img {
+		display: none;
+	}
+	.navbar {
+		flex-direction: column;
+	}
+	.name,
+	.bar {
+		flex-direction: column;
+		align-self: flex-start;
+		justify-content: flex-start;
+		width: 100%;
+	}
+	ul {
+		margin: 1px;
+		padding: 1px;
+	}
+	li {
+		border: 1px solid black;
+		border-radius: 5px;
+		margin: 10px;
+	}
+	#arrow-img {
+		display: none;
+	}
+	.abt-card {
+		flex-direction: column;
+	}
+	#my-pic {
+		display: none;
+	}
+	.contact-page {
+		width: 100%;
+		flex-direction: column;
+	}
+	.contact-description {
+		display: none;
+	}
+	.contact-card {
+		align-items: center;
+		justify-content: center;
+	}
+	#contact-msg {
+		text-align: center;
+	}
 }

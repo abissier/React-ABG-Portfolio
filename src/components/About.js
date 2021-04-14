@@ -9,7 +9,7 @@ function About() {
 						persistent problem-solver. Excellent communicator with effective client relationship building
 						skills. Graduate of Full Stack Web Development through UNC Charlotte.
 					</p>
-					<p>Here are my projects!</p>
+					<p>Check out my projects!</p>
 				</div>
 				<img
 					src="https://i.ibb.co/58RTN1V/arrow-removebg-preview.png"
@@ -18,7 +18,7 @@ function About() {
 				/>
 			</div>
 			<div className="img-section">
-				<img src="https://i.ibb.co/kJbK3Wp/me.png" alt="me" />
+				<img src="https://i.ibb.co/kJbK3Wp/me.png" alt="me" id="my-pic" />
 			</div>
 		</div>
 	);

@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from '../img/ABG-Resume.pdf';
 
 function Contact() {
 	return (
@@ -14,33 +15,33 @@ function Contact() {
 						>
 							<img src="https://img.icons8.com/metro/52/000000/linkedin.png" alt="linkedin icon" />
 						</a>
-						LinkedIn /audrey-bissiere-grote
+						<div className="contact-description">LinkedIn /audrey-bissiere-grote</div>
 					</div>
 					<div className="contact-card">
 						<a href="mailto:abissieregrote@gmail.com">
 							<img src="https://img.icons8.com/metro/52/000000/email.png" alt="email icon" />{' '}
 						</a>
-						abissieregrote@gmail.com
-					</div>
-					<div className="contact-card">
-						<img src="https://img.icons8.com/android/48/000000/phone.png" alt="phone icon" />(704) 618 -
-						2785
+						<div className="contact-description">abissieregrote@gmail.com</div>
 					</div>
 					<div className="contact-card">
 						<a href="https://github.com/abissier" target="_blank" rel="noreferrer">
 							<img src="https://img.icons8.com/material-sharp/96/000000/github.png" alt="github icon" />
 						</a>
-						Github /abissier
+						<div className="contact-description">Github /abissier</div>
 					</div>
 
 					<div className="contact-card">
-						<a href="./img/ABG Tech Resume .pdf" download="ABGResume">
+						<a href={resume} target="_blank" rel="noreferrer">
 							<img
 								src="https://img.icons8.com/material/96/000000/open-resume--v1.png"
 								alt="resume icon"
 							/>
 						</a>
-						Resume
+						<div className="contact-description">Resume</div>
+					</div>
+					<div className="contact-card">
+						<img src="https://img.icons8.com/android/48/000000/phone.png" alt="phone icon" />(704) 618 -
+						2785
 					</div>
 				</div>
 				<div className="contact-map">
