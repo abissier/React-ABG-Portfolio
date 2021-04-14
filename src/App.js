@@ -15,7 +15,7 @@ function App() {
 			<Wrapper>
 				<Router>
 					<Navbar />
-					<Route exact path="/">
+					<Route exact path={[ '/', '/React-ABG-Portfolio' ]}>
 						<About />
 						<Footer />
 					</Route>
