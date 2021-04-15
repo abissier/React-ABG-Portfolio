@@ -20,7 +20,6 @@ function App() {
 						<Footer />
 					</Route>
 					<Route path="/projects">
-						<h2 className="project-helper">Mouse over each project for more info</h2>
 						<div className="projectWrapper">
 							{projects.map((project) => (
 								<Project
