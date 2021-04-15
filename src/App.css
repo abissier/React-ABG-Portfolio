@@ -69,10 +69,6 @@ li {
 }
 
 /* Project Component Styling */
-.project-helper {
-	text-align: center;
-}
-
 .projectWrapper {
 	display: flex;
 	flex-flow: row wrap;
