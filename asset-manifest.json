@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/React-ABG-Portfolio/static/css/main.ba9a5a7d.chunk.css",
-    "main.js": "/React-ABG-Portfolio/static/js/main.5662cc99.chunk.js",
-    "main.js.map": "/React-ABG-Portfolio/static/js/main.5662cc99.chunk.js.map",
+    "main.css": "/React-ABG-Portfolio/static/css/main.44fc11a2.chunk.css",
+    "main.js": "/React-ABG-Portfolio/static/js/main.6a944b1d.chunk.js",
+    "main.js.map": "/React-ABG-Portfolio/static/js/main.6a944b1d.chunk.js.map",
     "runtime-main.js": "/React-ABG-Portfolio/static/js/runtime-main.985b8b8c.js",
     "runtime-main.js.map": "/React-ABG-Portfolio/static/js/runtime-main.985b8b8c.js.map",
     "static/js/2.a130464a.chunk.js": "/React-ABG-Portfolio/static/js/2.a130464a.chunk.js",
     "static/js/2.a130464a.chunk.js.map": "/React-ABG-Portfolio/static/js/2.a130464a.chunk.js.map",
     "index.html": "/React-ABG-Portfolio/index.html",
-    "static/css/main.ba9a5a7d.chunk.css.map": "/React-ABG-Portfolio/static/css/main.ba9a5a7d.chunk.css.map",
+    "static/css/main.44fc11a2.chunk.css.map": "/React-ABG-Portfolio/static/css/main.44fc11a2.chunk.css.map",
     "static/js/2.a130464a.chunk.js.LICENSE.txt": "/React-ABG-Portfolio/static/js/2.a130464a.chunk.js.LICENSE.txt",
     "static/media/ABG-Resume.182b9602.pdf": "/React-ABG-Portfolio/static/media/ABG-Resume.182b9602.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.985b8b8c.js",
     "static/js/2.a130464a.chunk.js",
-    "static/css/main.ba9a5a7d.chunk.css",
-    "static/js/main.5662cc99.chunk.js"
+    "static/css/main.44fc11a2.chunk.css",
+    "static/js/main.6a944b1d.chunk.js"
   ]
 }
