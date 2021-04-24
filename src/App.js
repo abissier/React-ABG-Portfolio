@@ -7,9 +7,17 @@ import Project from './components/Project';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import projects from './data/projects.json';
+import ReactGA from 'react-ga';
+import AppConfig from './App.config';
 import './App.css';
 
+function initializeAnalytics() {
+	ReactGA.initialize(AppConfig.GA_TRACKING_CODE);
+	ReactGA.pageview('/');
+}
+
 function App() {
+	initializeAnalytics();
 	return (
 		<div>
 			<Wrapper>
