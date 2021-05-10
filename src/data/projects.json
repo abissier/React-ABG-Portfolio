@@ -1,12 +1,12 @@
 [
 	{
 		"id": "1",
-		"title": "Burger Bar",
-		"code": "https://github.com/abissier/Burger-Bar",
-		"deployedCode": "https://burger-bar-orm.herokuapp.com/",
-		"description": "A restaurant app that allows users to add names of burgers to the menu and devour them.",
-		"tools": "Built with MySQL, Node, Express, Handlebars, and ORM.",
-		"imageSrc": "https://i.ibb.co/xjwZYPY/burger-Bar.png"
+		"title": "Interview Mania",
+		"code": "https://github.com/angeleefshaw/interview-mania",
+		"deployedCode": "https://interview-mania.herokuapp.com/",
+		"description": "An interview preperation website for new developers. ** Guest users can sign in via the following creditentials- username: guestUser - password:secret ",
+		"tools": "Collaborative project built with React, MySQL, Sequelize, Passportjs, Axios, Express, and Bootstrap.",
+		"imageSrc": "https://i.ibb.co/7GPC37y/screencapture-interview-mania-herokuapp-Main-2021-05-10-16-40-05.png"
 	},
 	{
 		"id": "2",
@@ -19,23 +19,15 @@
 	},
 	{
 		"id": "3",
-		"title": "README Generator",
-		"code": "https://github.com/abissier/Generator-README",
-		"description": "A CLI application that prompts users with a series of questions to generate a README.md file for your project.",
-		"tools": "Built with Node.js and Inquirer npm. *Please note: there is no deployed link for this project.",
-		"imageSrc": "https://i.ibb.co/tZWf94c/screencapture-github-abissier-Generator-README-blob-main-READMEsample-md-2021-03-23-10-06-23.png"
+		"title": "Burger Bar",
+		"code": "https://github.com/abissier/Burger-Bar",
+		"deployedCode": "https://burger-bar-orm.herokuapp.com/",
+		"description": "A restaurant app that allows users to add names of burgers to the menu and devour them.",
+		"tools": "Built with MySQL, Node, Express, Handlebars, and ORM.",
+		"imageSrc": "https://i.ibb.co/xjwZYPY/burger-Bar.png"
 	},
 	{
 		"id": "4",
-		"title": "Fitness Tracker",
-		"code": "https://github.com/abissier/fitness-tracker",
-		"deployedCode": "https://fitness-app-tracker1.herokuapp.com/",
-		"description": "A fitness app allows users to create and track daily workouts.",
-		"tools": "Built with MongoDB, Mongoose, Express, and Javascript.",
-		"imageSrc": "https://i.ibb.co/5MMK9S9/screencapture-fitness-app-tracker1-herokuapp-2021-03-02-15-36-49.png"
-	},
-	{
-		"id": "5",
 		"title": "Weather Dashboard",
 		"code": "https://github.com/abissier/Weather-Dashboard",
 		"deployedCode": "https://abissier.github.io/Weather-Dashboard/",
@@ -44,12 +36,20 @@
 		"imageSrc": "https://i.ibb.co/2n59PDf/weatherdb.png"
 	},
 	{
+		"id": "5",
+		"title": "README Generator",
+		"code": "https://github.com/abissier/Generator-README",
+		"description": "A CLI application that prompts users with a series of questions to generate a README.md file for your project.",
+		"tools": "Built with Node.js and Inquirer npm. *Please note: there is no deployed link for this project.",
+		"imageSrc": "https://i.ibb.co/tZWf94c/screencapture-github-abissier-Generator-README-blob-main-READMEsample-md-2021-03-23-10-06-23.png"
+	},
+	{
 		"id": "6",
-		"title": "Recipe Hub",
-		"code": "https://github.com/carlastjuste/Project2_Repo1",
-		"deployedCode": "https://the-recipe-hub.herokuapp.com/",
-		"description": "A recipe tool that allows users to save and search for recipes.",
-		"tools": "Collaborative project built with Express, MySQL, Sequelize, web API, and Handlebars.",
-		"imageSrc": "https://i.ibb.co/26z3LZt/screencapture-the-recipe-hub-herokuapp-search-all-recipes-2021-03-23-10-03-35.png"
+		"title": "Fitness Tracker",
+		"code": "https://github.com/abissier/fitness-tracker",
+		"deployedCode": "https://fitness-app-tracker1.herokuapp.com/",
+		"description": "A fitness app allows users to create and track daily workouts.",
+		"tools": "Built with MongoDB, Mongoose, Express, and Javascript.",
+		"imageSrc": "https://i.ibb.co/5MMK9S9/screencapture-fitness-app-tracker1-herokuapp-2021-03-02-15-36-49.png"
 	}
 ]
