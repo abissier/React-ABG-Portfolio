@@ -1,29 +1,31 @@
-import { Link } from 'react-router-dom';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import '../App.css';
 
 function Navbar() {
 	return (
 		<div className="navbar">
-			<div className="name">
-				<h1>Audrey Bissiere-Grote</h1>
-				<h2>Fullstack Web Developer</h2>
+			<div className="name-section">
+				<div className="name">
+					<h1>Audrey Bissiere-Grote</h1>
+					<h2>Fullstack Web Developer</h2>
+				</div>
 			</div>
 			<div className="bar">
 				<ul>
 					<li>
-						<Link to="/" className="link-nav">
+						<AnchorLink href="#about-me" className="link-nav">
 							About Me
-						</Link>
+						</AnchorLink>
 					</li>
 					<li>
-						<Link to="/projects" className="link-nav">
+						<AnchorLink href="#projects" className="link-nav">
 							Projects
-						</Link>
+						</AnchorLink>
 					</li>
 					<li>
-						<Link to="contact" className="link-nav">
+						<AnchorLink href="#contact" className="link-nav">
 							Contact
-						</Link>
+						</AnchorLink>
 					</li>
 				</ul>
 			</div>

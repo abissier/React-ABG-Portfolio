@@ -10,19 +10,31 @@
 	z-index: auto;
 }
 
-/* Nav Bar Styling */
-
+/* --------------Nav Bar Styling------------------ */
 .navbar {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	position: -webkit-sticky;
+	position: sticky;
+	height: 175px;
+	top: 0;
 	background-color: #c6d2ed;
 	padding: 5px;
 	border-radius: 5px;
+	z-index: 1;
 }
 
 .navbar h1 {
 	font-size: 50px;
+}
+
+.name-section {
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	margin-left: 2%;
+	font-family: 'Oswald', sans-serif;
 }
 
 .bar {
@@ -32,48 +44,94 @@
 	align-self: flex-end;
 }
 
-ul {
-	list-style: none;
+.bar ul {
 	display: flex;
 	flex-direction: row;
 }
 
-li {
+.bar li {
 	margin: 20px;
+	list-style: none;
 }
 
 .link-nav {
 	background: transparent;
 	text-decoration: none;
+	color: black;
 	border: #c6d2ed;
-	font-size: 25px;
-	border-radius: 5px;
-	height: 40px;
-	width: 90px;
+	font-size: 1.5rem;
 }
 
 .link-nav:hover {
 	transform: scale(1.1);
 	background: #a1b7eb;
+	border-radius: 5px;
 }
 
-.link-nav:active,
-.link-nav:visited {
-	color: black;
+/* ----------------------About Me Styling------------------------------ */
+
+.abt-me {
+	margin-left: 80px;
+	margin-right: 80px;
 }
 
-.name {
-	width: 50%;
-	margin-left: 10px;
-	font-family: 'Oswald', sans-serif;
+.abt-card {
+	display: flex;
+	flex-direction: row;
 }
 
-/* Project Component Styling */
+.abt-details {
+	margin: 7%;
+	text-align: left;
+	line-height: 40px;
+	font-size: 20px;
+}
+
+.skills-section {
+	display: flex;
+	flex-direction: column;
+	margin: 4%;
+	padding: 2%;
+}
+
+.skills-lists {
+	display: flex;
+	flex-direction: row;
+}
+
+.skills-lists ul {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+}
+
+.skills-lists ul li {
+	background-color: #c6d2ed;
+	border: 1px solid #c6d2ed;
+	border-radius: 10px;
+	width: 100px;
+	margin: 4%;
+	padding: 10%;
+}
+
+.skills-lists li:hover {
+	transform: scale(1.2);
+	transition: .5s ease-in;
+}
+
+/* -----------------Project Component Styling---------------------- */
+#projects {
+	border-radius: 5px;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: -5%;
+	text-align: left;
+	font-size: 20px;
+}
 .projectWrapper {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
-	margin: 10px;
 }
 
 .code-links {
@@ -125,6 +183,7 @@ h1 {
 
 .flip-card:hover .flip-card-inner {
 	transform: rotateY(180deg);
+	transition: 1s ease-in-out;
 }
 
 .flip-card-front,
@@ -144,57 +203,38 @@ h1 {
 	font-size: 15px;
 }
 
-/* About Me Styling */
-
-.abt-card {
-	border-radius: 5px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
-.abt-details {
-	margin: 80px;
-	text-align: left;
-	line-height: 40px;
-	font-size: 20px;
-	z-index: 1;
-}
-
-#arrow-img {
-	position: absolute;
-	z-index: -1;
-	right: 350px;
-	top: 220px;
+a {
+	text-decoration: none;
+	color: black;
 }
 
 /* Contact Me */
-.contact-page {
+
+#contact {
 	display: flex;
-	flex-flow: row;
-	justify-content: space-around;
-	margin-top: 20px;
-}
-
-#contact-msg {
-	text-align: end;
-}
-
-.contact-card {
-	margin: 10px;
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
-}
-
-.contact-map {
-	margin: 20px;
-}
-.contact-map img {
+	flex-flow: column;
 	border-radius: 5px;
-	box-shadow: 5px 5px 8px #888888;
+	margin-left: 80px;
+	margin-right: 80px;
+	font-size: 20px;
+	width: auto;
 }
 
+.contact-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style: none;
+}
+
+.contact-list li a {
+	background-color: #c6d2ed;
+	border: 1px solid #c6d2ed;
+	border-radius: 10px;
+	width: 150px;
+	margin: 4%;
+	padding: 10%;
+}
 /* Footer */
 .footer {
 	display: flex;
@@ -210,9 +250,6 @@ h1 {
 
 /* Media Screens */
 @media only screen and (max-width: 1000px) {
-	.contact-map img {
-		display: none;
-	}
 	.navbar {
 		flex-direction: column;
 	}
@@ -251,8 +288,5 @@ h1 {
 	.contact-card {
 		align-items: center;
 		justify-content: center;
-	}
-	#contact-msg {
-		text-align: center;
 	}
 }

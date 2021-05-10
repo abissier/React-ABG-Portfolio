@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Wrapper from './components/Wrapper';
 import Navbar from './components/Navbar';
 import About from './components/About';
@@ -21,33 +20,30 @@ function App() {
 	return (
 		<div>
 			<Wrapper>
-				<Router>
-					<Navbar />
-					<Route exact path={[ '/', '/React-ABG-Portfolio' ]}>
-						<About />
-						<Footer />
-					</Route>
-					<Route path="/projects">
-						<div className="projectWrapper">
-							{projects.map((project) => (
-								<Project
-									id={project.id}
-									title={project.title}
-									code={project.code}
-									deployedCode={project.deployedCode}
-									description={project.description}
-									tools={project.tools}
-									imageSrc={project.imageSrc}
-								/>
-							))}
-						</div>
-						<Footer />
-					</Route>
-					<Route path="/contact">
-						<Contact />
-						<Footer />
-					</Route>
-				</Router>
+				<Navbar />
+				<div id="about-me">
+					<About />
+				</div>
+				<div id="projects">
+					<h1>Projects</h1>
+					<div className="projectWrapper">
+						{projects.map((project) => (
+							<Project
+								id={project.id}
+								title={project.title}
+								code={project.code}
+								deployedCode={project.deployedCode}
+								description={project.description}
+								tools={project.tools}
+								imageSrc={project.imageSrc}
+							/>
+						))}
+					</div>
+				</div>
+				<div id="contact">
+					<Contact />
+				</div>
+				<Footer />
 			</Wrapper>
 		</div>
 	);
