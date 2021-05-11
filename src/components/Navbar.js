@@ -3,14 +3,14 @@ import '../App.css';
 
 function Navbar() {
 	return (
-		<div className="navbar">
+		<header>
 			<div className="name-section">
 				<div className="name">
 					<h1>Audrey Bissiere-Grote</h1>
 					<h2>Fullstack Web Developer</h2>
 				</div>
 			</div>
-			<div className="bar">
+			<nav>
 				<ul>
 					<li>
 						<AnchorLink href="#about-me" className="link-nav">
@@ -28,8 +28,8 @@ function Navbar() {
 						</AnchorLink>
 					</li>
 				</ul>
-			</div>
-		</div>
+			</nav>
+		</header>
 	);
 }
 

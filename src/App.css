@@ -11,22 +11,25 @@
 }
 
 /* --------------Nav Bar Styling------------------ */
-.navbar {
+header {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	position: -webkit-sticky;
 	position: sticky;
-	height: 175px;
+	height: auto;
 	top: 0;
 	background-color: #c6d2ed;
-	padding: 5px;
 	border-radius: 5px;
 	z-index: 1;
 }
 
-.navbar h1 {
-	font-size: 50px;
+header h1 {
+	font-size: 5vw;
+}
+
+header h2 {
+	font-size: 2vw;
 }
 
 .name-section {
@@ -37,19 +40,19 @@
 	font-family: 'Oswald', sans-serif;
 }
 
-.bar {
+nav {
 	width: 50%;
 	display: flex;
 	justify-content: space-around;
 	align-self: flex-end;
 }
 
-.bar ul {
+nav ul {
 	display: flex;
 	flex-direction: row;
 }
 
-.bar li {
+nav li {
 	margin: 20px;
 	list-style: none;
 }
@@ -112,11 +115,6 @@
 	width: 100px;
 	margin: 4%;
 	padding: 10%;
-}
-
-.skills-lists li:hover {
-	transform: scale(1.2);
-	transition: .5s ease-in;
 }
 
 /* -----------------Project Component Styling---------------------- */
@@ -250,11 +248,12 @@ a {
 
 /* Media Screens */
 @media only screen and (max-width: 1000px) {
-	.navbar {
+	header {
 		flex-direction: column;
+		height: auto;
 	}
 	.name,
-	.bar {
+	nav {
 		flex-direction: column;
 		align-self: flex-start;
 		justify-content: flex-start;
@@ -265,28 +264,26 @@ a {
 		padding: 1px;
 	}
 	li {
-		border: 1px solid black;
 		border-radius: 5px;
 		margin: 10px;
-	}
-	#arrow-img {
-		display: none;
 	}
 	.abt-card {
 		flex-direction: column;
 	}
-	#my-pic {
-		display: none;
+	.skills-lists ul {
+		margin: 10%;
 	}
 	.contact-page {
 		width: 100%;
 		flex-direction: column;
 	}
-	.contact-description {
-		display: none;
-	}
-	.contact-card {
+}
+@media only screen and (max-width: 450px) {
+	.contact-list {
+		flex-direction: column;
 		align-items: center;
-		justify-content: center;
+	}
+	.contact-list li {
+		margin: 5%;
 	}
 }
