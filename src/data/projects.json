@@ -4,9 +4,9 @@
 		"title": "Interview Mania",
 		"code": "https://github.com/angeleefshaw/interview-mania",
 		"deployedCode": "https://interview-mania.herokuapp.com/",
-		"description": "An interview preperation website for new developers. ** Guest users can sign in via the following creditentials- username: guestUser - password:secret ",
-		"tools": "Collaborative project built with React, MySQL, Sequelize, Passportjs, Axios, Express, and Bootstrap.",
-		"imageSrc": "https://i.ibb.co/7GPC37y/screencapture-interview-mania-herokuapp-Main-2021-05-10-16-40-05.png"
+		"description": "An interview preperation website for new developers. ** Guest users can sign in via the following creditentials: username: guestUser password: secret ",
+		"tools": [ "React", "MySQL", "Sequelize", "Passportjs", "Axios", "Express" ],
+		"imageSrc": "https://i.ibb.co/3RkMCTG/Capture.png"
 	},
 	{
 		"id": "2",
@@ -14,8 +14,8 @@
 		"code": "https://github.com/abissier/Employee-Directory",
 		"deployedCode": "https://employee-directory-app3.herokuapp.com/",
 		"description": "A directory that allows you to sort employees by name or location.",
-		"tools": "Built with React, API, and Bootstrap.",
-		"imageSrc": "https://i.ibb.co/ccnH7TN/screencapture-localhost-3000-Employee-Directory-2021-03-17-12-14-04.png"
+		"tools": [ "React", "API", "Bootstrap" ],
+		"imageSrc": "https://i.ibb.co/7CCzcZ0/Capture2.png"
 	},
 	{
 		"id": "3",
@@ -23,8 +23,8 @@
 		"code": "https://github.com/abissier/Burger-Bar",
 		"deployedCode": "https://burger-bar-orm.herokuapp.com/",
 		"description": "A restaurant app that allows users to add names of burgers to the menu and devour them.",
-		"tools": "Built with MySQL, Node, Express, Handlebars, and ORM.",
-		"imageSrc": "https://i.ibb.co/xjwZYPY/burger-Bar.png"
+		"tools": [ "MySQL", "Node", "Express", "Handlebars", "ORM" ],
+		"imageSrc": "https://i.ibb.co/mJhX7T7/Capture4.png"
 	},
 	{
 		"id": "4",
@@ -32,24 +32,7 @@
 		"code": "https://github.com/abissier/Weather-Dashboard",
 		"deployedCode": "https://abissier.github.io/Weather-Dashboard/",
 		"description": "A weather dashboard that allows users to view a five day forecast for each selected city.",
-		"tools": "Built with Javascript, HTML, CSS, and Open Weather API.",
-		"imageSrc": "https://i.ibb.co/2n59PDf/weatherdb.png"
-	},
-	{
-		"id": "5",
-		"title": "README Generator",
-		"code": "https://github.com/abissier/Generator-README",
-		"description": "A CLI application that prompts users with a series of questions to generate a README.md file for your project.",
-		"tools": "Built with Node.js and Inquirer npm. *Please note: there is no deployed link for this project.",
-		"imageSrc": "https://i.ibb.co/tZWf94c/screencapture-github-abissier-Generator-README-blob-main-READMEsample-md-2021-03-23-10-06-23.png"
-	},
-	{
-		"id": "6",
-		"title": "Fitness Tracker",
-		"code": "https://github.com/abissier/fitness-tracker",
-		"deployedCode": "https://fitness-app-tracker1.herokuapp.com/",
-		"description": "A fitness app allows users to create and track daily workouts.",
-		"tools": "Built with MongoDB, Mongoose, Express, and Javascript.",
-		"imageSrc": "https://i.ibb.co/5MMK9S9/screencapture-fitness-app-tracker1-herokuapp-2021-03-02-15-36-49.png"
+		"tools": [ "Javascript", "HTML", "CSS", "Open Weather API" ],
+		"imageSrc": "https://i.ibb.co/4dzw2W4/Capture3.png"
 	}
 ]
