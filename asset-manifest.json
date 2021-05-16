@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-ABG-Portfolio/static/css/main.f017782f.chunk.css",
+    "main.css": "/React-ABG-Portfolio/static/css/main.bddf8642.chunk.css",
     "main.js": "/React-ABG-Portfolio/static/js/main.ff61bef5.chunk.js",
     "main.js.map": "/React-ABG-Portfolio/static/js/main.ff61bef5.chunk.js.map",
     "runtime-main.js": "/React-ABG-Portfolio/static/js/runtime-main.985b8b8c.js",
@@ -8,14 +8,14 @@
     "static/js/2.6dbbbba9.chunk.js": "/React-ABG-Portfolio/static/js/2.6dbbbba9.chunk.js",
     "static/js/2.6dbbbba9.chunk.js.map": "/React-ABG-Portfolio/static/js/2.6dbbbba9.chunk.js.map",
     "index.html": "/React-ABG-Portfolio/index.html",
-    "static/css/main.f017782f.chunk.css.map": "/React-ABG-Portfolio/static/css/main.f017782f.chunk.css.map",
+    "static/css/main.bddf8642.chunk.css.map": "/React-ABG-Portfolio/static/css/main.bddf8642.chunk.css.map",
     "static/js/2.6dbbbba9.chunk.js.LICENSE.txt": "/React-ABG-Portfolio/static/js/2.6dbbbba9.chunk.js.LICENSE.txt",
     "static/media/ABG-Resume.182b9602.pdf": "/React-ABG-Portfolio/static/media/ABG-Resume.182b9602.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.985b8b8c.js",
     "static/js/2.6dbbbba9.chunk.js",
-    "static/css/main.f017782f.chunk.css",
+    "static/css/main.bddf8642.chunk.css",
     "static/js/main.ff61bef5.chunk.js"
   ]
 }
