@@ -40,7 +40,7 @@ nav li {
 	background: transparent;
 	text-decoration: none;
 	border: #c6d2ed;
-	font-size: 3vh;
+	font-size: 18px;
 	font-family: var(--text);
 }
 /* Title Styling */
@@ -48,7 +48,8 @@ nav li {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	font-size: 7vh;
+	justify-content: space-around;
+	font-size: 40px;
 	font-family: var(--header);
 	margin: 5%;
 	height: 500px;
@@ -71,11 +72,11 @@ nav li {
 	font-family: var(--text);
 	align-items: center;
 	align-content: center;
-	font-size: 3vh;
+	font-size: 20px;
 }
 
 .abt-card h1 {
-	font-size: 8vh;
+	font-size: 40px;
 	font-family: var(--header);
 }
 
@@ -94,7 +95,7 @@ nav li {
 /* -----------------Project Component Styling---------------------- */
 #projects h1 {
 	text-align: center;
-	font-size: 8vh;
+	font-size: 40px;
 	font-family: var(--header);
 }
 
@@ -210,7 +211,7 @@ a {
 #contact h1 {
 	font-family: var(--header);
 	text-align: center;
-	font-size: 8vh;
+	font-size: 40px;
 }
 
 .contact-list {
@@ -223,6 +224,9 @@ a {
 	margin: 30px;
 }
 
+.avatar {
+	align-self: center;
+}
 /* The typing effect */
 @keyframes typing {
 	from {

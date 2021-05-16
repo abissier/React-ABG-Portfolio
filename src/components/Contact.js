@@ -1,4 +1,5 @@
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 function Contact() {
 	return (
@@ -25,12 +26,12 @@ function Contact() {
 					</a>
 				</li>
 			</ul>
-
-			<img
-				src="https://avataaars.io/?avatarStyle=Transparent&topType=LongHairCurvy&accessoriesType=Blank&hairColor=Brown&facialHairType=Blank&clotheType=CollarSweater&clotheColor=Black&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Pale"
-				alt="avatar"
-			/>
-			{/* <img src="https://img.icons8.com/color/96/000000/circled-user-female-skin-type-5--v2.png" alt="avatar" /> */}
+			<AnchorLink offset="100" href="#title" className="avatar">
+				<img
+					src="https://avataaars.io/?avatarStyle=Transparent&topType=LongHairCurvy&accessoriesType=Blank&hairColor=Brown&facialHairType=Blank&clotheType=CollarSweater&clotheColor=Black&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Pale"
+					alt="avatar"
+				/>
+			</AnchorLink>
 		</footer>
 	);
 }
