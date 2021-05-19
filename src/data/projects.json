@@ -4,7 +4,7 @@
 		"title": "Interview Mania",
 		"code": "https://github.com/angeleefshaw/interview-mania",
 		"deployedCode": "https://interview-mania.herokuapp.com/",
-		"description": "An interview preperation website for new developers. ** Guest users can sign in via the following creditentials: username: guestUser password: secret ",
+		"description": "An interview preperation site for new developers. *Visitors sign in with username: guestUser password: secret",
 		"tools": [ "React", "MySQL", "Sequelize", "Passportjs", "Axios", "Express" ],
 		"imageSrc": "https://i.ibb.co/3RkMCTG/Capture.png"
 	},
