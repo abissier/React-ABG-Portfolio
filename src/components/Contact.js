@@ -12,17 +12,17 @@ function Contact() {
 						target="_blank"
 						rel="noreferrer"
 					>
-						<i class="icon-linkedin icon-2x" />
+						<i className="icon-linkedin icon-2x" />
 					</a>
 				</li>
 				<li>
 					<a href="https://github.com/abissier" target="_blank" rel="noreferrer">
-						<i class="icon-github icon-2x" />
+						<i className="icon-github icon-2x" />
 					</a>
 				</li>
 				<li>
 					<a href="mailto:abissieregrote@gmail.com">
-						<i class="fas fa-envelope icon-2x" />
+						<i className="fas fa-envelope icon-2x" />
 					</a>
 				</li>
 			</ul>
@@ -30,6 +30,8 @@ function Contact() {
 				<img
 					src="https://avataaars.io/?avatarStyle=Transparent&topType=LongHairCurvy&accessoriesType=Blank&hairColor=Brown&facialHairType=Blank&clotheType=CollarSweater&clotheColor=Black&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Pale"
 					alt="avatar"
+					height="300px"
+					width="300px"
 				/>
 			</AnchorLink>
 		</footer>

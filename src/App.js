@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Title from './components/Title';
 import Navbar from './components/Navbar';
 import About from './components/About';
@@ -9,13 +9,12 @@ import ReactGA from 'react-ga';
 import AppConfig from './App.config';
 import './App.css';
 
-function initializeAnalytics() {
-	ReactGA.initialize(AppConfig.GA_TRACKING_CODE);
-	ReactGA.pageview('/');
-}
-
 function App() {
-	initializeAnalytics();
+	useEffect(() => {
+		ReactGA.initialize(AppConfig.GA_TRACKING_CODE);
+		ReactGA.pageview(window.location.pathname);
+	});
+
 	return (
 		<div>
 			<Navbar />

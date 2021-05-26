@@ -8,7 +8,7 @@ function Title() {
 			<h1>AUDREY BISSIERE GROTE</h1>
 			<p>Full-Stack Developer</p>
 			<AnchorLink href="#about-me" offset="100">
-				<i class="icon-circle-arrow-down" />
+				<i className="icon-circle-arrow-down" />
 			</AnchorLink>
 		</header>
 	);
