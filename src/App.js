@@ -23,8 +23,9 @@ function App() {
 			<div id="projects">
 				<h1>- PROJECTS -</h1>
 				<div className="projectWrapper">
-					{projects.map((project) => (
+					{projects.map((project, index) => (
 						<Project
+							key={index}
 							id={project.id}
 							title={project.title}
 							code={project.code}

@@ -108,50 +108,22 @@ nav li {
 
 .container {
 	width: 100%;
-	background-color: white;
+	height: auto;
+	border: 2px solid white;
 	border-radius: 5px;
 	margin: 2%;
-	position: relative;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.image {
-	display: block;
-	width: 100%;
-	height: 100%;
-	background-color: white;
-	border-radius: 5px;
+.container:hover {
+	box-shadow: 0 4px 8px 0 #ddbea9, 0 6px 20px 0 #ddbea9;
 }
-
-.overlay {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 100%;
-	width: 100%;
-	opacity: 0;
-	transition: .5s ease;
-}
-
-.container:hover .overlay {
-	opacity: 1;
-}
-
 .text {
 	color: black;
 	font-family: var(--text);
 	font-size: 18px;
-	position: absolute;
 	display: flex;
-	flex-direction: row;
-	width: 100%;
-	height: 100%;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
+	padding: 1%;
 }
 
 .project-info {
@@ -162,6 +134,7 @@ nav li {
 	width: 15%;
 	display: flex;
 	flex-direction: column;
+	justify-content: space-evenly;
 }
 
 .project-btns button {
@@ -196,7 +169,7 @@ a {
 .text ul li {
 	margin: 2%;
 	border-radius: 5px;
-	padding: 2%;
+	padding: 1%;
 	border: 2px solid #ddbea9;
 }
 
@@ -243,6 +216,21 @@ a {
 	.title p {
 		font-size: 30px;
 	}
+	.text {
+		flex-direction: column;
+	}
+	.project-info {
+		width: 100%;
+	}
+	.project-info ul {
+		display: none;
+	}
+	.project-btns {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		width: 100%;
+	}
 }
 @media only screen and (max-width: 450px) {
 	.title h1 {
@@ -253,13 +241,6 @@ a {
 	}
 	.title p {
 		font-size: 20px;
-	}
-	.project-info {
-		display: none;
-	}
-	.project-btns {
-		display: flex;
-		flex-direction: row;
 	}
 	.contact-list {
 		flex-direction: column;

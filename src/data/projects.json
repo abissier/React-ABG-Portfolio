@@ -4,7 +4,7 @@
 		"title": "Interview Mania",
 		"code": "https://github.com/angeleefshaw/interview-mania",
 		"deployedCode": "https://interview-mania.herokuapp.com/",
-		"description": "An interview preperation site for new developers. *Visitors sign in with username: guestUser password: secret",
+		"description": "An interview preperation site for new developers. *Visitors sign in with username: guestUser, password: secret",
 		"tools": [ "React", "MySQL", "Sequelize", "Passportjs", "Axios", "Express" ],
 		"imageSrc": "https://i.ibb.co/3RkMCTG/Capture.png"
 	},
@@ -13,7 +13,7 @@
 		"title": "Employee-Directory",
 		"code": "https://github.com/abissier/Employee-Directory",
 		"deployedCode": "https://employee-directory-app3.herokuapp.com/",
-		"description": "A directory that allows you to sort employees by name or location.",
+		"description": "A directory that allows users to sort employees by name or location.",
 		"tools": [ "React", "API", "Bootstrap" ],
 		"imageSrc": "https://i.ibb.co/7CCzcZ0/Capture2.png"
 	},
